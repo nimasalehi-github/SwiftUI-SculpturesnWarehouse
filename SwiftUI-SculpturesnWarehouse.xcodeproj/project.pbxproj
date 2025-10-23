@@ -14,6 +14,18 @@
 		F9BE917A2EAA2D9F007329CE /* SwiftUI_SculpturesnWarehouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE91792EAA2D9F007329CE /* SwiftUI_SculpturesnWarehouseTests.swift */; };
 		F9BE91842EAA2D9F007329CE /* SwiftUI_SculpturesnWarehouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE91832EAA2D9F007329CE /* SwiftUI_SculpturesnWarehouseUITests.swift */; };
 		F9BE91862EAA2D9F007329CE /* SwiftUI_SculpturesnWarehouseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE91852EAA2D9F007329CE /* SwiftUI_SculpturesnWarehouseUITestsLaunchTests.swift */; };
+		F9BE91932EAA2DF2007329CE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F9BE91922EAA2DF2007329CE /* README.md */; };
+		F9BE91942EAA2DF2007329CE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F9BE91922EAA2DF2007329CE /* README.md */; };
+		F9BE91952EAA2DF2007329CE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F9BE91922EAA2DF2007329CE /* README.md */; };
+		F9BE91992EAA2F47007329CE /* Sculpture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE91982EAA2F47007329CE /* Sculpture.swift */; };
+		F9BE919A2EAA2F47007329CE /* Sculpture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE91982EAA2F47007329CE /* Sculpture.swift */; };
+		F9BE919B2EAA2F47007329CE /* Sculpture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE91982EAA2F47007329CE /* Sculpture.swift */; };
+		F9BE919D2EAA2F8C007329CE /* Warehouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE919C2EAA2F8C007329CE /* Warehouse.swift */; };
+		F9BE919E2EAA2F8C007329CE /* Warehouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE919C2EAA2F8C007329CE /* Warehouse.swift */; };
+		F9BE919F2EAA2F8C007329CE /* Warehouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE919C2EAA2F8C007329CE /* Warehouse.swift */; };
+		F9BE91A12EAA2FBA007329CE /* SculptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE91A02EAA2FBA007329CE /* SculptureView.swift */; };
+		F9BE91A22EAA2FBA007329CE /* SculptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE91A02EAA2FBA007329CE /* SculptureView.swift */; };
+		F9BE91A32EAA2FBA007329CE /* SculptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE91A02EAA2FBA007329CE /* SculptureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,10 @@
 		F9BE917F2EAA2D9F007329CE /* SwiftUI-SculpturesnWarehouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-SculpturesnWarehouseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE91832EAA2D9F007329CE /* SwiftUI_SculpturesnWarehouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SculpturesnWarehouseUITests.swift; sourceTree = "<group>"; };
 		F9BE91852EAA2D9F007329CE /* SwiftUI_SculpturesnWarehouseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SculpturesnWarehouseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9BE91922EAA2DF2007329CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F9BE91982EAA2F47007329CE /* Sculpture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sculpture.swift; sourceTree = "<group>"; };
+		F9BE919C2EAA2F8C007329CE /* Warehouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warehouse.swift; sourceTree = "<group>"; };
+		F9BE91A02EAA2FBA007329CE /* SculptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SculptureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,7 @@
 		F9BE915C2EAA2D97007329CE = {
 			isa = PBXGroup;
 			children = (
+				F9BE91922EAA2DF2007329CE /* README.md */,
 				F9BE91672EAA2D98007329CE /* SwiftUI-SculpturesnWarehouse */,
 				F9BE91782EAA2D9F007329CE /* SwiftUI-SculpturesnWarehouseTests */,
 				F9BE91822EAA2D9F007329CE /* SwiftUI-SculpturesnWarehouseUITests */,
@@ -94,6 +111,8 @@
 		F9BE91672EAA2D98007329CE /* SwiftUI-SculpturesnWarehouse */ = {
 			isa = PBXGroup;
 			children = (
+				F9BE91972EAA2EEF007329CE /* View */,
+				F9BE91962EAA2EDF007329CE /* Model */,
 				F9BE91682EAA2D98007329CE /* SwiftUI_SculpturesnWarehouseApp.swift */,
 				F9BE916A2EAA2D98007329CE /* ContentView.swift */,
 				F9BE916C2EAA2D9F007329CE /* Assets.xcassets */,
@@ -125,6 +144,23 @@
 				F9BE91852EAA2D9F007329CE /* SwiftUI_SculpturesnWarehouseUITestsLaunchTests.swift */,
 			);
 			path = "SwiftUI-SculpturesnWarehouseUITests";
+			sourceTree = "<group>";
+		};
+		F9BE91962EAA2EDF007329CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE91982EAA2F47007329CE /* Sculpture.swift */,
+				F9BE919C2EAA2F8C007329CE /* Warehouse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9BE91972EAA2EEF007329CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE91A02EAA2FBA007329CE /* SculptureView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9BE91932EAA2DF2007329CE /* README.md in Resources */,
 				F9BE91702EAA2D9F007329CE /* Preview Assets.xcassets in Resources */,
 				F9BE916D2EAA2D9F007329CE /* Assets.xcassets in Resources */,
 			);
@@ -240,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9BE91942EAA2DF2007329CE /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9BE91952EAA2DF2007329CE /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +297,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9BE916B2EAA2D98007329CE /* ContentView.swift in Sources */,
+				F9BE919D2EAA2F8C007329CE /* Warehouse.swift in Sources */,
 				F9BE91692EAA2D98007329CE /* SwiftUI_SculpturesnWarehouseApp.swift in Sources */,
+				F9BE91A12EAA2FBA007329CE /* SculptureView.swift in Sources */,
+				F9BE91992EAA2F47007329CE /* Sculpture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9BE91A22EAA2FBA007329CE /* SculptureView.swift in Sources */,
 				F9BE917A2EAA2D9F007329CE /* SwiftUI_SculpturesnWarehouseTests.swift in Sources */,
+				F9BE919E2EAA2F8C007329CE /* Warehouse.swift in Sources */,
+				F9BE919A2EAA2F47007329CE /* Sculpture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +320,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9BE91842EAA2D9F007329CE /* SwiftUI_SculpturesnWarehouseUITests.swift in Sources */,
+				F9BE919F2EAA2F8C007329CE /* Warehouse.swift in Sources */,
 				F9BE91862EAA2D9F007329CE /* SwiftUI_SculpturesnWarehouseUITestsLaunchTests.swift in Sources */,
+				F9BE91A32EAA2FBA007329CE /* SculptureView.swift in Sources */,
+				F9BE919B2EAA2F47007329CE /* Sculpture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
